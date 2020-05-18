@@ -11,7 +11,7 @@ $('ul').on("click", 'span', function(e) {
   e.stopPropagation();
 
 })
-
+// Add for new Todo
   $("input[type='text']").keypress(function(e){
     if(e.which=== 13) {
       // grabbing new todo text from input
